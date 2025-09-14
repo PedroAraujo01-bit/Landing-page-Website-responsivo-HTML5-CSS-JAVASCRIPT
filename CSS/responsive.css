@@ -1,0 +1,131 @@
+@media screen and (max-width: 900px){
+    header .menu-desktop, header .contato {
+        display: none;
+    }
+
+        header .btn-menu-mob {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 870px){
+    /*Responsivo da hero*/
+
+    .hero-site .txt-hero h1 {
+    font-size: 2.6em;
+    line-height: 45px;
+}
+
+    .hero-site .txt-hero p {
+    font-size: 14px;
+    display: inline;
+}
+
+/*Responsivo da lista de jogos*/
+
+    .lista-jogos .jogos-container {
+        flex-direction: column;
+    }
+
+    .lista-jogos .jogos-container .img-jogo img{
+        width: 100%;
+
+    }
+
+    .lista-jogos .jogos-container .txt-info p {
+        margin-bottom: 20px;
+    }
+    .lista-jogos .jogos-container .item-01 {
+        order: 1;
+    }
+
+    .lista-jogos .jogos-container .item-02 {
+        order: 0;
+    }
+
+    .lista-jogos .jogos-container .item-03 {
+        order: 1;
+    }
+
+    .lista-jogos .jogos-container .item-04 {
+        order: 0;
+    }
+
+    .lista-jogos .jogos-container .item-05 {
+        order: 1;
+    }
+
+    .lista-jogos .jogos-container .item-06 {
+        order: 0;
+    }
+
+    /*Responsivo feedback*/
+
+    .txt-feedback, .icons-feedback{
+        display: block;
+        width: 100%;
+    }
+
+    .feedback .txt-feedback h3{
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .feedback .icons-feedback button{
+        width: 100%;
+    }
+
+    .feedback .icons-feedback button:hover {
+        background-color: #FA5A5A;
+    }
+
+    .feedback  .txt-feedback p {
+        margin-bottom: 20px;
+    }
+
+    /*Responsivo das reviews*/
+
+   
+    .reviews h3 {
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+
+    .reviews p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+     /*Responsivo Plataformas*/
+
+    .txt-plataforma, .forma-jogo {
+        display: block;
+        width: 100%;
+    }
+
+    .plataforma .txt-plataforma{
+        position: static;
+    }
+
+    .plataforma .txt-plataforma h3 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .forma-jogo .forma-jogo-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*Responsivo rodape*/
+
+    footer .middle-footer a {
+        color: #fff;
+        margin: 15px 0px;
+        display: block;
+    }
+
+    footer .bottom-footer p{
+        font-size: 14px;
+    }
+}
